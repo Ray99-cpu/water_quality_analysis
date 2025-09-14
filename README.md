@@ -17,6 +17,24 @@ The dataset has been obtained from the Kaggle website and contains water quality
 
 
 
+| Water Elements  | Description                                                                                                                                                                                                                                                                       | WHO Standard / Cause                                                                 |
+|-----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
+| pH value        | Measures the acidity or alkalinity of the water.                                                                                                                                                                                                                                  | 6.5 – 8.5                                                                            |
+| Hardness        | Calcium & magnesium salts. The longer the water is in contact with these salts, the harder the water.                                                                                                                                                                              | —                                                                                    |
+| Solids          | Water can dissolve inorganic and organic minerals or salts. This can result in an unwanted taste and appearance of water.                                                                                                                                                          | TDS 500 mg/l – 1000 mg/l for drinking purposes.                                      |
+| Chloramines     | Used to disinfect public water systems.                                                                                                                                                                                                                                           | Chlorine levels up to 4 mg/l are considered safe for drinking water.                 |
+| Sulfates        | Natural substances found in minerals, soil, and rocks. Also in ambient air, groundwater, plants, and food. Higher concentrations are found in some geographic locations.                                                                                                           | Sulfate ranges from 3 to 30 mg/l.                                                   |
+| Conductivity    | Pure water is not a good conductor of electric current but rather a good insulator. An increase in ion concentration enhances the electrical conductivity of water. Generally, the amount of dissolved solids in water determines the electrical conductivity.                        | EC value should not exceed 400 µS/cm.                                               |
+| Organic carbon  | Total Organic Carbon (TOC) in source waters comes from decaying natural organic matter (NOM) as well as synthetic sources.                                                                                                                                                         | US EPA: < 2 mg/L TOC in treated/drinking water, < 4 mg/L in source water.            |
+| Trihalomethanes | THMs are chemicals that may be found in water treated with chlorine. Levels vary based on organic material, chlorine used, and water temperature.                                                                                                                                    | THM levels up to 80 ppm are considered safe in drinking water.                       |
+| Turbidity       | Depends on the quantity of suspended solid matter. It measures the light-emitting properties of water and indicates waste discharge quality regarding colloidal matter.                                                                                                              | WHO-recommended value: 5.00 NTU                                                     |
+| Potability      | Indicates if water is safe for human consumption.                                                                                                                                                                                                                                  | 1 = Potable, 0 = Not potable                                                        |
+
+
+
+
+
+
 
 
 
