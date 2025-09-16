@@ -64,7 +64,7 @@ The dataset has been obtained from the Kaggle website and contains water quality
 
 
 
-## Hypothesis and how to validation
+## Hypothesis and validation
 
 #### The hypotheses will be tested using the Shapiro-Wilk,Chi-square (χ²), and t-tests.
 
