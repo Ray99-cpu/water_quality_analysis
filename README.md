@@ -64,7 +64,10 @@ The dataset has been obtained from the Kaggle website and contains water quality
 
 
 
-## Hypothesis and how to validate?
+## Hypothesis and how to validation
+
+#### The hypotheses will be tested using the Shapiro-Wilk,Chi-square (χ²), and t-tests.
+
 #### Ph levels
 * Null hypothesis (H₀): There is no difference in pH between potable and non-potable water.
 * Alternative hypothesis (H₁): Potable water has a higher average pH than non-potable water.
@@ -75,7 +78,7 @@ The dataset has been obtained from the Kaggle website and contains water quality
 * Null Hypothesis (H₀): There is no difference in turbidity between potable and non-potable samples.
 * Alternative Hypothesis (H₁): Potable water has lower turbidity on average than non-potable water.
 
-* The hypotheses will be tested using the Shapiro-Wilk,Chi-square (χ²), and t-tests.
+
 
 
 ## Project Plan
