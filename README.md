@@ -58,7 +58,10 @@ The dataset has been obtained from the Kaggle website and contains water quality
 
 
 ## Business Requirements
-* Describe your business requirements
+#### Purpose and Scope
+* Objective: To assess and classify water samples as potable (safe to drink) or non-potable based on chemical and physical parameters.
+* Scope: Applies to municipal water utilities, environmental agencies, or research institutions monitoring water quality.
+
 
 
 ## Hypothesis and how to validate?
