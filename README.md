@@ -65,7 +65,18 @@ The dataset has been obtained from the Kaggle website and contains water quality
 
 
 ## Hypothesis and how to validate?
-* List here your project hypothesis(es) and how you envision validating it (them) 
+#### Ph levels
+* Null hypothesis (H₀): There is no difference in pH between potable and non-potable water.
+* Alternative hypothesis (H₁): Potable water has a higher average pH than non-potable water.
+#### Chloramine levels 
+* Null hypothesis (H₀): There is no difference in Chloramine levels between potable and non-potable water.
+* Alternative hypothesis (H₁): Potable water has higher Chloramines concentrations on average than non-potable water.
+#### Turbidity
+* Null Hypothesis (H₀): There is no difference in turbidity between potable and non-potable samples.
+* Alternative Hypothesis (H₁): Potable water has lower turbidity on average than non-potable water.
+
+* The hypotheses will be tested using the Shapiro-Wilk,Chi-square (χ²), and t-tests.
+
 
 ## Project Plan
 * Outline the high-level steps taken for the analysis.
