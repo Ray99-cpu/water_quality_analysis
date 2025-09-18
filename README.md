@@ -89,6 +89,19 @@ The dataset has been obtained from the Kaggle website and contains water quality
 
 * Deliverables: Clean dataset, exploratory analysis, hypothesis testing, predictive, and final report.
 
+Project plan phases
+
+| Phase                      | Duration     |
+|---------------------------|--------------|
+| Planning & Setup          | 1 week       |
+| Data Cleaning & Processing| 1–2 weeks    |
+| EDA & Hypothesis Testing  | 2 weeks      |
+| Interpretation & Reporting| 1 week       |
+
+
+
+
+
 
 
 
