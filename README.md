@@ -89,7 +89,7 @@ The dataset has been obtained from the Kaggle website and contains water quality
 
 * Deliverables: Clean dataset, exploratory analysis, hypothesis testing, predictive, and final report.
 
-Project plan phases
+**Project plan phases**
 
 | Phase                      | Duration     |
 |---------------------------|--------------|
