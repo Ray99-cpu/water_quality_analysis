@@ -82,6 +82,16 @@ The dataset has been obtained from the Kaggle website and contains water quality
 
 
 ## Project Plan
+
+* Objective: Analyze water quality parameters to identify factors affecting potability and build insights for decision-making.
+
+* Dataset: water_potability.csv (3,276 records, 9 water quality parameters + potability label).
+
+* Deliverables: Clean dataset, exploratory analysis, hypothesis testing, predictive, and final report.
+
+
+
+
 * Outline the high-level steps taken for the analysis.
 * How was the data managed throughout the collection, processing, analysis and interpretation steps?
 * Why did you choose the research methodologies you used?
