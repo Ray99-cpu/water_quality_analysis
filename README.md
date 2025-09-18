@@ -122,8 +122,8 @@ The dataset has been obtained from the Kaggle website and contains water quality
 * How potable is the water, and is it suitable for human consumption?
 
 
-## Phase 2: Data Management##
-
+### Phase 2: Data Management
+ 
 * Data Collection & Integrity Check
 The dataset was obtained from the Kaggle website.
 
@@ -136,13 +136,13 @@ The dataset was cleaned within a Jupyter notebook, where a description and numbe
 
 
 
-## Phase 3: Exploratory Data Analysis (EDA)##
+### Phase 3: Exploratory Data Analysis (EDA)
 * Generate summary statistics (mean, median, standard deviation).
 * Visualize distributions (histograms, boxplots) and relationships (heatmaps, scatterplots).
 * Explore correlations between variables and potability.
 
 
-## Phase 4: Hypothesis Testing##
+### Phase 4: Hypothesis Testing
 * Perform statistical tests:
 * Interpret p-values to accept/reject hypotheses.
 * Document results with tables and plots.
@@ -150,7 +150,7 @@ The dataset was cleaned within a Jupyter notebook, where a description and numbe
 
 
 
-## Phase 5: Interpretation & Reporting##
+### Phase 5: Interpretation & Reporting
 * Summarize findings, highlighting key variables influencing potability.
 * Include actionable insights for water quality monitoring.
 * Create a professional report or presentation with visuals and recommendations.
