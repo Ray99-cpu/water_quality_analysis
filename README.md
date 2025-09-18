@@ -105,9 +105,61 @@ The dataset has been obtained from the Kaggle website and contains water quality
 
 
 
-* Outline the high-level steps taken for the analysis.
-* How was the data managed throughout the collection, processing, analysis and interpretation steps?
-* Why did you choose the research methodologies you used?
+### Phase 1: Planning
+
+**Research questions**
+
+* To what extent do the pH levels affect the potability of the water?
+
+* Do the solids that exist contain a level that is suitable for human consumption?
+
+* What is the level of water hardness that contains calcium and magnesium salts?
+
+* Do the levels of sulfates meet the Water Supply (Water Quality) Regulations 2016 and European and World Health  Organization standards of 250 mg/l (milligrams per litre)?
+
+* Are the levels of trihalomethanes safe? Do they exceed 80ppm? 
+* What are the turbidity levels in water? Do they meet the WHO value of 5.00?
+* How potable is the water, and is it suitable for human consumption?
+
+
+## Phase 2: Data Management##
+
+* Data Collection & Integrity Check
+The dataset was obtained from the Kaggle website.
+
+* Verify dataset format
+The dataset is in a CSV format and 512kb in size with 10 columns
+
+
+* Data Cleaning & Preprocessing
+The dataset was cleaned within a Jupyter notebook, where a description and number of missing values was obtained. The null values were dropped and dataset was readied for analysis.
+
+
+
+## Phase 3: Exploratory Data Analysis (EDA)##
+* Generate summary statistics (mean, median, standard deviation).
+* Visualize distributions (histograms, boxplots) and relationships (heatmaps, scatterplots).
+* Explore correlations between variables and potability.
+
+
+## Phase 4: Hypothesis Testing##
+* Perform statistical tests:
+* Interpret p-values to accept/reject hypotheses.
+* Document results with tables and plots.
+
+
+
+
+## Phase 5: Interpretation & Reporting##
+* Summarize findings, highlighting key variables influencing potability.
+* Include actionable insights for water quality monitoring.
+* Create a professional report or presentation with visuals and recommendations.
+
+
+
+
+
+
 
 ## The rationale to map the business requirements to the Data Visualisations
 * List your business requirements and a rationale to map them to the Data Visualisations
