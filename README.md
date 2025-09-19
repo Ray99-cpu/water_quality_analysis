@@ -1,6 +1,6 @@
 # ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-
+# Project Water Quality
 
 ![water_tap](repo_image/tap.png)
 
@@ -19,7 +19,7 @@
 
 
 
-# Project Water Quality
+
 ## Introduction
 The purpose of this project is to understand the water quality and how such concentrations of substances and elements impact on humans' ability to consume for the benefit of our health. Various water companies are investing in water infrastructure, such as sanitation, as it generates economic benefits for the respective regions. A cost-benefit analysis would suggest in this case that the benefit of the reduction in disease and health care costs outweighs the cost of water infrastructure. This is because societies as a whole benefit from sanitation interventions. In addition, it is very interesting when we think of the journey water takes from its source in the hills or mountains, reservoirs, and sanitation plants, then to our taps in our homes. 
 
