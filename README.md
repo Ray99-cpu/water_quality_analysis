@@ -1,6 +1,6 @@
 # ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-# Project Water Quality
+# Project Water Quality Analysis
 
 ![water_tap](repo_image/tap.png)
 
