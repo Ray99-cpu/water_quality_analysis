@@ -269,6 +269,12 @@ The dashboard consists of two pages. On the first page there are two scatterplot
 
 
 
+![dashboard](pbi_images/dash.png)
+
+
+
+
+
 
 
 
