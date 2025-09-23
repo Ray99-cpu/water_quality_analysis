@@ -224,14 +224,44 @@ The dataset was cleaned within a Jupyter notebook, where a description and numbe
 * To measure the levels of organic carbon.
 
 ## Analysis techniques used
-* List the data analysis methods used and explain limitations or alternative approaches.
-* How did you structure the data analysis techniques. Justify your response.
-* Did the data limit you, and did you use an alternative approach to meet these challenges?
-* How did you use generative AI tools to help with ideation, design thinking and code optimisation?
+* Data Analysis Methods:
+
+Exploratory Data Analysis (EDA): Used to understand the distribution, relationships, and missing values in the dataset. Visualizations included histograms, boxplots, and correlation heatmaps.
+Limitations: EDA is descriptive and doesn’t provide predictive insights. It may also overlook subtle patterns in high-dimensional data.
+Alternative approaches: Dimensionality reduction techniques like PCA or feature selection methods could be applied to capture hidden patterns more effectively.
+
+Data Preprocessing & Imputation: Missing values were imputed using median or mean values depending on the distribution of the variable.
+Limitations: Simple imputation may distort the underlying distribution.
+Alternative approaches: More advanced methods like K-Nearest Neighbors (KNN) imputation or iterative imputation could improve accuracy.
+
+
+Data Analysis Structure:
+
+Data Cleaning: Removed duplicates, handled missing values, and ensured proper data types.
+
+EDA: Visualized distributions, correlations, and outliers.
+
+Feature Engineering: Normalized or scaled numeric features and explored interactions between variables.
+
+
+
+Data Limitations & Alternative Approaches:
+
+The dataset had missing values and imbalanced classes, which could skew model performance.
+
+
+Generative AI Tools:
+
+Used ChatGPT to brainstorm feature engineering ideas, optimize Python code, and validate modeling logic.
+
+AI-assisted ideation helped identify alternative approaches for missing data imputation and ensemble modeling strategies.
 
 ## Ethical considerations
-* Were there any data privacy, bias or fairness issues with the data?
-* How did you overcome any legal or societal issues?
+Data Privacy, Bias, and Fairness:
+
+* The dataset contains environmental measurements without personal information, so privacy concerns were minimal.
+
+* Bias could arise from underrepresented water quality conditions or regional variations, affecting model fairness.
 
 ## Dashboard Design
 * List all dashboard pages and their content, either blocks of information or widgets, like buttons, checkboxes, images, or any other item that your dashboard library supports.
@@ -242,14 +272,22 @@ The dataset was cleaned within a Jupyter notebook, where a description and numbe
 
 
 ## Development Roadmap
-* What challenges did you face, and what strategies were used to overcome these challenges?
-* What new skills or tools do you plan to learn next based on your project experience? 
+* The main challenges were understanding some of the parameters to really understand how they affected drinking water. 
+* The dataset was limited in that some trend analysis could not be shown to reveal major upward or downward trends.
 
 
 
 
 ## Main Data Analysis Libraries
-* Here you should list the libraries you used in the project and provide an example(s) of how you used these libraries.
+
+| Library     | Example Usage                                                                 |
+|------------|-------------------------------------------------------------------------------|
+| pandas     | `import pandas as pd`<br>`df = pd.read_csv('water_potability.csv')`<br>`df.describe()` – Summarize dataset statistics |
+| numpy      | `import numpy as np`<br>`df['pH'].fillna(np.median(df['pH']), inplace=True)` – Handle missing values<br>`np.array(df['Hardness'])` – Convert to array |
+| matplotlib | `import matplotlib.pyplot as plt`<br>`plt.hist(df['pH'], bins=20)` – Plot histogram<br>`plt.show()` – Display plot |
+| seaborn    | `import seaborn as sns`<br>`sns.boxplot(x='Potability', y='pH', data=df)` – Visualize distribution<br>`sns.heatmap(df.corr(), annot=True)` – Correlation heatmap |
+| plotly     | `import plotly.express as px`<br>`px.scatter(df, x='Hardness', y='Solids', color='Potability')` – Interactive scatter plot |
+
 
 
 ## Credits 
