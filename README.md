@@ -26,7 +26,7 @@ The purpose of this project is to understand the water quality and how such conc
 
 ## Dataset Content
 * About the dataset
-The dataset has been obtained from the Kaggle website and contains water quality metrics for 3276 water bodies. Therefore, it provides sufficient scope to understand whether the water quality meets the World Health Organization's standards. The WHO standard will be the benchmark for us to measure and comment on the water quality. The dataset is a csv file and is 512kb in size with 10 columns.
+The dataset has been obtained from the Kaggle website and contains water quality metrics for 3276 water bodies. Therefore, it provides sufficient scope to understand whether the water quality meets the World Health Organization's standards. The WHO and UK standards will be the benchmarks for us to measure and comment on the water quality. The dataset is a csv file and is 512kb in size with 10 columns.
 
 
 
