@@ -38,7 +38,7 @@ The dataset has been obtained from the Kaggle website and contains water quality
 
 
 
-### The table below outlines the measurements, substances,solids and elements that come to be found in the water source. The World Health Organisation's standard indicates what is acceptable for humnan consumption.
+### The table below outlines the measurements, substances,solids and elements that come to be found in the water source. The UK's and World Health Organisation's standards indicates what is acceptable for human consumption.
 
 
 
