@@ -292,7 +292,7 @@ Data Privacy, Bias, and Fairness:
 
 ## Credits 
 
-* Kaggle - Water Analysis Dataset
+* Kaggle - Water Quality Dataset
 * ChatGPT - definitions on some parameters & Power BI visuals
 * Pandas documentation
 
