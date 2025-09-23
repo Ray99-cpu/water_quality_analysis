@@ -282,7 +282,7 @@ Data Privacy, Bias, and Fairness:
 
 | Library     | Example Usage                                                                 |
 |------------|-------------------------------------------------------------------------------|
-| pandas     | `import pandas as pd`<br>`df = pd.read_csv('water_potability.csv')`<br>`df.describe()` – Summarize dataset statistics |
+| pandas     | `import pandas as pd`<br>`df = pd.read_csv('water_potability_cleaned.csv')`<br>`df.describe()` – Summarize dataset statistics |
 | numpy      | `import numpy as np`<br>`df['pH'].fillna(np.median(df['pH']), inplace=True)` – Handle missing values<br>`np.array(df['Hardness'])` – Convert to array |
 | matplotlib | `import matplotlib.pyplot as plt`<br>`plt.hist(df['pH'], bins=20)` – Plot histogram<br>`plt.show()` – Display plot |
 | seaborn    | `import seaborn as sns`<br>`sns.boxplot(x='Potability', y='pH', data=df)` – Visualize distribution<br>`sns.heatmap(df.corr(), annot=True)` – Correlation heatmap |
