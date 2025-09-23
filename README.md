@@ -30,6 +30,40 @@ The dataset has been obtained from the Kaggle website and contains water quality
 
 
 
+## Water Quality Dataset Parameters and Definitions
+
+
+#### pH
+Definition: Measures the acidity or alkalinity of water on a scale from 0 to 14. Values below 7 indicate acidic water, while values above 7 indicate alkaline water.
+
+#### Hardness
+Definition: Indicates the concentration of calcium and magnesium salts in water. Higher values suggest "hard" water, which can cause scaling in pipes and affect soap efficiency.
+
+#### Solids
+Definition: Represents the total dissolved solids (TDS) in water, including minerals, salts, and metals. High TDS levels can affect taste and may indicate contamination.
+
+#### Chloramines
+Definition: Chemical compounds formed by combining chlorine with ammonia. Used as disinfectants in water treatment but can be harmful at high concentrations.
+
+#### Sulfate
+Definition: A naturally occurring compound in water, often from dissolved minerals. High sulfate levels can cause a bitter taste and laxative effects.
+
+#### Conductivity
+Definition: Measures the water's ability to conduct electricity, which correlates with the concentration of dissolved ions. Higher conductivity indicates higher ion concentration.
+
+#### Organic Carbon
+Definition: Represents the amount of carbon found in organic compounds in water. High levels can indicate pollution from organic matter.
+
+#### Trihalomethanes (THMs)
+Definition: Chemical compounds formed when chlorine used in water treatment reacts with natural organic matter. Some THMs are carcinogenic.
+
+#### Turbidity
+Definition: Measures the cloudiness or haziness of water caused by large numbers of individual particles. High turbidity can harbor microorganisms and indicate poor water quality.
+
+#### Potability
+Definition: The target variable indicating whether the water is safe for human consumption. A value of 1 means potable (safe), and 0 means not potable (unsafe).
+
+
 
 
 
