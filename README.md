@@ -207,7 +207,7 @@ The dataset was cleaned within a Jupyter notebook, where a description and numbe
 ### Phase 5: Interpretation & Reporting
 * Summarize findings, highlighting key variables influencing potability.
 * Include actionable insights for water quality monitoring.
-* Create a professional report or presentation with visuals and recommendations.
+
 
 
 
