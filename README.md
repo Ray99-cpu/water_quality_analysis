@@ -228,11 +228,6 @@ The dataset was cleaned within a Jupyter notebook, where a description and numbe
 
 * Exploratory Data Analysis (EDA): Used to understand the distribution, relationships, and missing values in the dataset. Visualizations included histograms, boxplots, and correlation heatmaps.
 * Limitations: EDA is descriptive and doesn’t provide predictive insights. It may also overlook subtle patterns in high-dimensional data.
-* Alternative approaches: Dimensionality reduction techniques like PCA or feature selection methods could be applied to capture hidden patterns more effectively.
-
-* Data Preprocessing & Imputation: Missing values were imputed using median or mean values depending on the distribution of the variable.
-Limitations: Simple imputation may distort the underlying distribution.
-Alternative approaches: More advanced methods like K-Nearest Neighbors (KNN) imputation or iterative imputation could improve accuracy.
 
 
 #### Data Analysis Structure
