@@ -226,35 +226,35 @@ The dataset was cleaned within a Jupyter notebook, where a description and numbe
 ## Analysis techniques used
 * Data Analysis Methods:
 
-Exploratory Data Analysis (EDA): Used to understand the distribution, relationships, and missing values in the dataset. Visualizations included histograms, boxplots, and correlation heatmaps.
-Limitations: EDA is descriptive and doesn’t provide predictive insights. It may also overlook subtle patterns in high-dimensional data.
-Alternative approaches: Dimensionality reduction techniques like PCA or feature selection methods could be applied to capture hidden patterns more effectively.
+* Exploratory Data Analysis (EDA): Used to understand the distribution, relationships, and missing values in the dataset. Visualizations included histograms, boxplots, and correlation heatmaps.
+* Limitations: EDA is descriptive and doesn’t provide predictive insights. It may also overlook subtle patterns in high-dimensional data.
+* Alternative approaches: Dimensionality reduction techniques like PCA or feature selection methods could be applied to capture hidden patterns more effectively.
 
-Data Preprocessing & Imputation: Missing values were imputed using median or mean values depending on the distribution of the variable.
+* Data Preprocessing & Imputation: Missing values were imputed using median or mean values depending on the distribution of the variable.
 Limitations: Simple imputation may distort the underlying distribution.
 Alternative approaches: More advanced methods like K-Nearest Neighbors (KNN) imputation or iterative imputation could improve accuracy.
 
 
-Data Analysis Structure:
+#### Data Analysis Structure
 
-Data Cleaning: Removed duplicates, handled missing values, and ensured proper data types.
+* Data Cleaning: Removed duplicates, handled missing values, and ensured proper data types.
 
-EDA: Visualized distributions, correlations, and outliers.
+* EDA: Visualized distributions, correlations, and outliers.
 
-Feature Engineering: Normalized or scaled numeric features and explored interactions between variables.
-
-
-
-Data Limitations & Alternative Approaches:
-
-The dataset had missing values and imbalanced classes, which could skew model performance.
+* Feature Engineering: Normalized or scaled numeric features and explored interactions between variables.
 
 
-Generative AI Tools:
 
-Used ChatGPT to brainstorm feature engineering ideas, optimize Python code, and validate modeling logic.
+### Data Limitations & Alternative Approaches
 
-AI-assisted ideation helped identify alternative approaches for missing data imputation and ensemble modeling strategies.
+* The dataset had missing values and imbalanced classes, which could skew model performance.
+
+
+### Generative AI Tools
+
+* Used ChatGPT to brainstorm feature engineering ideas, optimize Python code, and validate modeling logic.
+
+* AI-assisted ideation helped identify alternative approaches for missing data imputation and ensemble modeling strategies.
 
 ## Ethical considerations
 Data Privacy, Bias, and Fairness:
