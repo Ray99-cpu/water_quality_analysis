@@ -291,13 +291,12 @@ The dashboard consists of two pages. On the first page there are two scatterplot
 
 ## Main Data Analysis Libraries
 
-| Library     | Usage                                                                 |
-|------------|-------------------------------------------------------------------------------|
-| pandas     | `import pandas as pd`<br>`df = pd.read_csv('water_potability_cleaned.csv')`<br>`df.describe()` – Summarize dataset statistics |
-| numpy      | `import numpy as np`<br>`df['pH'].fillna(np.median(df['pH']), inplace=True)` – Handle missing values<br>`np.array(df['Hardness'])` – Convert to array |
-| matplotlib | `import matplotlib.pyplot as plt`<br>`plt.hist(df['pH'], bins=20)` – Plot histogram<br>`plt.show()` – Display plot |
-| seaborn    | `import seaborn as sns`<br>`sns.boxplot(x='Potability', y='pH', data=df)` – Visualize distribution<br>`sns.heatmap(df.corr(), annot=True)` – Correlation heatmap |
-| plotly     | `import plotly.express as px`<br>`px.scatter(df, x='Hardness', y='Solids', color='Potability')` – Interactive scatter plot |
+| **Library**   | **Usage** |
+|----------------|------------------|
+| **pandas**     | *Data Cleaning*  <br>`import pandas as pd`  <br>`df = pd.read_csv('water_potability_cleaned.csv')` – Load data  <br>`df.dropna(inplace=True)` – Remove missing values  <br>`df['pH'] = df['pH'].fillna(df['pH'].median())` – Fill missing values |
+| **seaborn**    | *Bar Chart*  <br>`import seaborn as sns`  <br>`sns.barplot(x='Potability', y='Hardness', data=df)` – Bar plot  <br>*Boxplot*  <br>`sns.boxplot(x='Potability', y='pH', data=df)` – Box plot  <br>*Histogram*  <br>`sns.histplot(df['pH'], bins=20)` – Histogram |
+| **matplotlib** | *Pie Chart*  <br>`import matplotlib.pyplot as plt`  <br>`sizes = df['Potability'].value_counts()`  <br>`plt.pie(sizes, labels=sizes.index, autopct='%1.1f%%')`  <br>`plt.show()` – Pie chart |
+| **plotly**     | *Doughnut Chart*  <br>`import plotly.express as px`  <br>`fig = px.pie(df, names='Potability', hole=0.4)` – Doughnut chart  <br>*Histogram*  <br>`fig = px.histogram(df, x='pH', nbins=20)` – Histogram  <br>*Boxplot*  <br>`fig = px.box(df, x='Potability', y='Hardness')` – Box plot  <br>`fig.show()` – Display interactive plots |
 
 
 
