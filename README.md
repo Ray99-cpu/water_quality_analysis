@@ -45,7 +45,7 @@ Definition: Represents the total dissolved solids (TDS) in water, including mine
 #### Chloramines
 Definition: Chemical compounds formed by combining chlorine with ammonia. Used as disinfectants in water treatment but can be harmful at high concentrations.
 
-#### Sulfate
+#### Sulphates
 Definition: A naturally occurring compound in water, often from dissolved minerals. High sulfate levels can cause a bitter taste and laxative effects.
 
 #### Conductivity
