@@ -306,6 +306,7 @@ The dashboard consists of two pages. On the first page there are two scatterplot
 * Kaggle - Water Quality Dataset
 * ChatGPT - definitions on some parameters & Power BI visuals
 * Pandas documentation
+* Pixabay - royalty free image
 
 
 
