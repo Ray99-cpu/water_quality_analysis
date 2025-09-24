@@ -291,7 +291,7 @@ The dashboard consists of two pages. On the first page there are two scatterplot
 
 ## Main Data Analysis Libraries
 
-| Library     | Example Usage                                                                 |
+| Library     | Usage                                                                 |
 |------------|-------------------------------------------------------------------------------|
 | pandas     | `import pandas as pd`<br>`df = pd.read_csv('water_potability_cleaned.csv')`<br>`df.describe()` – Summarize dataset statistics |
 | numpy      | `import numpy as np`<br>`df['pH'].fillna(np.median(df['pH']), inplace=True)` – Handle missing values<br>`np.array(df['Hardness'])` – Convert to array |
